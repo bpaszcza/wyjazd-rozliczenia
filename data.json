@@ -2,7 +2,7 @@
   "expenses": [
     {
       "id": "1780947841920",
-      "desc": "Tommy dzień 1",
+      "desc": "Tommy dzieÅ 1",
       "amount": 133,
       "payer": "paszcze",
       "shares": {
@@ -11,6 +11,19 @@
         "odrzywolki": 0.21052631578947367,
         "grzony": 0.21052631578947367,
         "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1780947970853",
+      "desc": "Leżaki",
+      "amount": 30,
+      "payer": "grzony",
+      "shares": {
+        "paszcze": 0.2,
+        "ludwy": 0.2,
+        "odrzywolki": 0.2,
+        "grzony": 0.2,
+        "hermany_nowaki": 0.2
       }
     }
   ]
