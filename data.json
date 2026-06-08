@@ -1,0 +1,17 @@
+{
+  "expenses": [
+    {
+      "id": "1780947841920",
+      "desc": "Tommy dzień 1",
+      "amount": 133,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    }
+  ]
+}
