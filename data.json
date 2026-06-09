@@ -2,7 +2,7 @@
   "expenses": [
     {
       "id": "1780947841920",
-      "desc": "Tommy dzieÃÂÃÂ 1",
+      "desc": "Tommy dzieÃÂÃÂÃÂÃÂ 1",
       "amount": 133,
       "payer": "paszcze",
       "shares": {
@@ -24,6 +24,19 @@
         "odrzywolki": 0.2,
         "grzony": 0.2,
         "hermany_nowaki": 0.2
+      }
+    },
+    {
+      "id": "1781035004401",
+      "desc": "Pizza na plazybwe wtorek",
+      "amount": 43,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.3333333333333333,
+        "ludwy": 0.3333333333333333,
+        "odrzywolki": 0,
+        "grzony": 0.3333333333333333,
+        "hermany_nowaki": 0
       }
     }
   ]
