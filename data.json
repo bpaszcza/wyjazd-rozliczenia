@@ -2,7 +2,7 @@
   "expenses": [
     {
       "id": "1780947841920",
-      "desc": "Tommy dzieÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 1",
+      "desc": "Tommy dzieÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 1",
       "amount": 133,
       "payer": "paszcze",
       "shares": {
@@ -43,6 +43,19 @@
       "id": "1781126559717",
       "desc": "Tax",
       "amount": 104,
+      "payer": "odrzywolki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781165438923",
+      "desc": "Zakupy w poniedziałek (w tym potrawka z indyka i soczewicy)",
+      "amount": 95,
       "payer": "odrzywolki",
       "shares": {
         "paszcze": 0.21052631578947367,
