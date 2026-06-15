@@ -1,17 +1,3 @@
 {
-  "expenses": [
-    {
-      "id": "1781559617851",
-      "desc": "Sss",
-      "amount": 1,
-      "payer": "grzony",
-      "shares": {
-        "paszcze": 0.21052631578947367,
-        "ludwy": 0.21052631578947367,
-        "odrzywolki": 0.21052631578947367,
-        "grzony": 0.21052631578947367,
-        "hermany_nowaki": 0.15789473684210525
-      }
-    }
-  ]
+  "expenses": []
 }
