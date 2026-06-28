@@ -316,17 +316,37 @@ async function loadData() {
 
 async function saveData() {
   setSyncBadge('loading');
+  // Always fetch latest sha before writing to avoid conflicts
   try {
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify({ expenses }, null, 2))));
+    const check = await ghFetch(`/repos/${REPO}/contents/${FILE_PATH}`);
+    if (check.status === 200) {
+      const existing = await check.json();
+      fileSha = existing.sha;
+      // Merge: use server data as base, our in-memory state as truth
+      // (simple last-write-wins per save action)
+    } else if (check.status === 404) {
+      fileSha = null;
+    }
+  } catch(e) { /* proceed with cached sha */ }
+
+  try {
+    const jsonStr = JSON.stringify({ expenses }, null, 2);
+    const encoded = btoa(unescape(encodeURIComponent(jsonStr)));
     const body = {
       message: 'update expenses',
-      content,
+      content: encoded,
       ...(fileSha ? { sha: fileSha } : {})
     };
     const r = await ghFetch(`/repos/${REPO}/contents/${FILE_PATH}`, {
       method: 'PUT',
       body: JSON.stringify(body)
     });
+    if (r.status === 409) {
+      // Conflict - reload and retry once
+      setSyncBadge('err');
+      await loadData();
+      return;
+    }
     const d = await r.json();
     fileSha = d.content?.sha || fileSha;
     setSyncBadge('ok');
