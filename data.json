@@ -171,7 +171,7 @@
     },
     {
       "id": "1782644189713",
-      "desc": "zakupy tommy piÄtek",
+      "desc": "zakupy tommy piÃÂtek",
       "amount": 20,
       "payer": "ludwy",
       "shares": {
@@ -193,6 +193,19 @@
         "odrzywolki": 1,
         "grzony": 0,
         "hermany_nowaki": 0
+      }
+    },
+    {
+      "id": "1782645377703",
+      "desc": "Zakupy Lewiatan (ostatnie, chyba piątek)",
+      "amount": 50,
+      "payer": "grzony",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
       }
     }
   ]
