@@ -1,3 +1,173 @@
 {
-  "expenses": []
+  "expenses": [
+    {
+      "id": "1780947841920",
+      "desc": "Tommy dzien 1",
+      "amount": 133,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000000",
+      "desc": "Lezaki",
+      "amount": 30,
+      "payer": "grzony",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000001",
+      "desc": "Pizza na plazy we wtorek",
+      "amount": 43,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000002",
+      "desc": "Zakupy w poniedzialek (potrawka z indyka i soczewicy)",
+      "amount": 95,
+      "payer": "odrzywolki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000003",
+      "desc": "Zakupy Tommy + Konzum",
+      "amount": 120,
+      "payer": "grzony",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000004",
+      "desc": "Tommy w sobote dzien 1",
+      "amount": 104,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000005",
+      "desc": "Tommy 9.06",
+      "amount": 58,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000006",
+      "desc": "Lody Tommy czwartek",
+      "amount": 12,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000007",
+      "desc": "Pizza na plazy w poniedzialek",
+      "amount": 46,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000008",
+      "desc": "Plodine - zakupy duze pierwszy dzien",
+      "amount": 128,
+      "payer": "hermany_nowaki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000009",
+      "desc": "Zakupy Tommy 10.6",
+      "amount": 53,
+      "payer": "hermany_nowaki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000010",
+      "desc": "Pizza w piatek czesc 1",
+      "amount": 30,
+      "payer": "odrzywolki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1781000000011",
+      "desc": "Pizza piatek czesc 2",
+      "amount": 20,
+      "payer": "hermany_nowaki",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
+    }
+  ]
 }
