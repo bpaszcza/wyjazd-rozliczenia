@@ -171,7 +171,7 @@
     },
     {
       "id": "1782644189713",
-      "desc": "zakupy tommy piątek",
+      "desc": "zakupy tommy piÄtek",
       "amount": 20,
       "payer": "ludwy",
       "shares": {
@@ -180,6 +180,19 @@
         "odrzywolki": 0.21052631578947367,
         "grzony": 0.21052631578947367,
         "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1782644472192",
+      "desc": "Ryba surowa",
+      "amount": 5,
+      "payer": "grzony",
+      "shares": {
+        "paszcze": 0,
+        "ludwy": 0,
+        "odrzywolki": 1,
+        "grzony": 0,
+        "hermany_nowaki": 0
       }
     }
   ]
