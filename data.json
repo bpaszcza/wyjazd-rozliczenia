@@ -168,6 +168,19 @@
         "grzony": 0.21052631578947367,
         "hermany_nowaki": 0.15789473684210525
       }
+    },
+    {
+      "id": "1782644189713",
+      "desc": "zakupy tommy piątek",
+      "amount": 20,
+      "payer": "ludwy",
+      "shares": {
+        "paszcze": 0.21052631578947367,
+        "ludwy": 0.21052631578947367,
+        "odrzywolki": 0.21052631578947367,
+        "grzony": 0.21052631578947367,
+        "hermany_nowaki": 0.15789473684210525
+      }
     }
   ]
 }
