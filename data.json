@@ -171,7 +171,7 @@
     },
     {
       "id": "1782644189713",
-      "desc": "zakupy tommy piÃÂÃÂtek",
+      "desc": "zakupy tommy piÃÂÃÂÃÂÃÂtek",
       "amount": 20,
       "payer": "ludwy",
       "shares": {
@@ -197,7 +197,7 @@
     },
     {
       "id": "1782645377703",
-      "desc": "Zakupy Lewiatan (ostatnie, chyba piÄtek)",
+      "desc": "Zakupy Lewiatan (ostatnie, chyba piÃÂtek)",
       "amount": 40,
       "payer": "grzony",
       "shares": {
@@ -206,6 +206,19 @@
         "odrzywolki": 0.21052631578947367,
         "grzony": 0.21052631578947367,
         "hermany_nowaki": 0.15789473684210525
+      }
+    },
+    {
+      "id": "1782657358448",
+      "desc": "Obiad Grzony Erona",
+      "amount": 66,
+      "payer": "paszcze",
+      "shares": {
+        "paszcze": 0,
+        "ludwy": 0,
+        "odrzywolki": 0,
+        "grzony": 1,
+        "hermany_nowaki": 0
       }
     }
   ]
